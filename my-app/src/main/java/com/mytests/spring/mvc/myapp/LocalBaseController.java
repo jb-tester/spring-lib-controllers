@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * *
  */
 @RequestMapping("/local3")
-public class Local3BaseController {
+public class LocalBaseController {
     @GetMapping("/")
     @ResponseBody
     public String local3home() {

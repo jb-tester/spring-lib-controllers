@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
  * *
  */
 @RestController
-public class Local3BaseControllerImpl extends Local3BaseController {
+public class LocalBaseControllerImpl extends LocalBaseController {
 
     @RequestMapping("/m1")
     public String m1() {
