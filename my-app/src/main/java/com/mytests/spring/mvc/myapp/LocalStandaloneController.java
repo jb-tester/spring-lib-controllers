@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/local1")
-public class LocalController1 {
+public class LocalStandaloneController {
 
     @GetMapping(value = "/foo" + "bar")
     public String m0() {

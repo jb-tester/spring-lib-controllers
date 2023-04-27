@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  * *
  */
 @RestController
-public class LocalController2 extends LibBaseController {
+public class LibBaseControllerImpl extends LibBaseController {
 
     @RequestMapping("/local2")
     public String local() {
